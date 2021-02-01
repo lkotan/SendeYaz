@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendeYaz.Core", "SendeYaz.Core\SendeYaz.Core.csproj", "{AA6F1A26-A74A-462C-B129-2B24B0F30C38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendeYaz.Entities", "SendeYaz.Entities\SendeYaz.Entities.csproj", "{3A880E3A-C4C8-4353-AF3D-AA5C45155CCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendeYaz.Models", "SendeYaz.Models\SendeYaz.Models.csproj", "{ED00DFF0-805D-4243-8067-C7BBB51739DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendeYaz.DataAccess", "SendeYaz.DataAccess\SendeYaz.DataAccess.csproj", "{37EC228F-89FE-401D-9B3B-65217E236828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendeYaz.Business", "SendeYaz.Business\SendeYaz.Business.csproj", "{5D123F9E-9EA5-4179-877F-105FEE165CD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendeYaz.API", "SendeYaz.API\SendeYaz.API.csproj", "{97AE2A99-3A0D-4F5E-A6DC-5006FC859EE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA6F1A26-A74A-462C-B129-2B24B0F30C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6F1A26-A74A-462C-B129-2B24B0F30C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6F1A26-A74A-462C-B129-2B24B0F30C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6F1A26-A74A-462C-B129-2B24B0F30C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A880E3A-C4C8-4353-AF3D-AA5C45155CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A880E3A-C4C8-4353-AF3D-AA5C45155CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A880E3A-C4C8-4353-AF3D-AA5C45155CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A880E3A-C4C8-4353-AF3D-AA5C45155CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED00DFF0-805D-4243-8067-C7BBB51739DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED00DFF0-805D-4243-8067-C7BBB51739DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED00DFF0-805D-4243-8067-C7BBB51739DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED00DFF0-805D-4243-8067-C7BBB51739DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37EC228F-89FE-401D-9B3B-65217E236828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EC228F-89FE-401D-9B3B-65217E236828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EC228F-89FE-401D-9B3B-65217E236828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EC228F-89FE-401D-9B3B-65217E236828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D123F9E-9EA5-4179-877F-105FEE165CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D123F9E-9EA5-4179-877F-105FEE165CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D123F9E-9EA5-4179-877F-105FEE165CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D123F9E-9EA5-4179-877F-105FEE165CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97AE2A99-3A0D-4F5E-A6DC-5006FC859EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AE2A99-3A0D-4F5E-A6DC-5006FC859EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AE2A99-3A0D-4F5E-A6DC-5006FC859EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AE2A99-3A0D-4F5E-A6DC-5006FC859EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF4F8569-7514-4AE7-9A8B-430D5A11ACD0}
+	EndGlobalSection
+EndGlobal

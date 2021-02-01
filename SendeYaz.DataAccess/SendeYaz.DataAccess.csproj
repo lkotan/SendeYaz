@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210120133440_updateTableAccount.cs" />
+    <Compile Remove="Migrations\20210120133440_updateTableAccount.Designer.cs" />
+    <Compile Remove="Migrations\20210121112218_addTableLike.cs" />
+    <Compile Remove="Migrations\20210121112218_addTableLike.Designer.cs" />
+    <Compile Remove="Migrations\20210121112456_addTableLike.cs" />
+    <Compile Remove="Migrations\20210121112456_addTableLike.Designer.cs" />
+    <Compile Remove="Migrations\20210121112634_addTableLike.cs" />
+    <Compile Remove="Migrations\20210121112634_addTableLike.Designer.cs" />
+    <Compile Remove="Migrations\20210121113119_addTableLike.cs" />
+    <Compile Remove="Migrations\20210121113119_addTableLike.Designer.cs" />
+    <Compile Remove="Migrations\20210121113656_addTableLike.cs" />
+    <Compile Remove="Migrations\20210121113656_addTableLike.Designer.cs" />
+    <Compile Remove="Migrations\20210121113717_addTableLike.cs" />
+    <Compile Remove="Migrations\20210121113717_addTableLike.Designer.cs" />
+    <Compile Remove="Migrations\20210121113840_addTableLikes.cs" />
+    <Compile Remove="Migrations\20210121113840_addTableLikes.Designer.cs" />
+    <Compile Remove="Migrations\20210121114602_addTableLikes.cs" />
+    <Compile Remove="Migrations\20210121114602_addTableLikes.Designer.cs" />
+    <Compile Remove="Migrations\20210121114701_addTableLikes.cs" />
+    <Compile Remove="Migrations\20210121114701_addTableLikes.Designer.cs" />
+    <Compile Remove="Migrations\20210121114816_addTableLikes.cs" />
+    <Compile Remove="Migrations\20210121114816_addTableLikes.Designer.cs" />
+    <Compile Remove="Migrations\20210121115352_addAccountBlogCascade.cs" />
+    <Compile Remove="Migrations\20210121115352_addAccountBlogCascade.Designer.cs" />
+    <Compile Remove="Migrations\20210121115559_addAccountBlogCascade.cs" />
+    <Compile Remove="Migrations\20210121115559_addAccountBlogCascade.Designer.cs" />
+    <Compile Remove="Migrations\20210121115753_addAccountBlogCascade.cs" />
+    <Compile Remove="Migrations\20210121115753_addAccountBlogCascade.Designer.cs" />
+    <Compile Remove="Migrations\20210121115849_addAccountBlogCascade.cs" />
+    <Compile Remove="Migrations\20210121115849_addAccountBlogCascade.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SendeYaz.Entities\SendeYaz.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
